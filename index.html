@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="hello/logo.jpg">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title>UNIVERSITY WEBPAGE </title>
+        <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      
+    </head>
+    <body>
+        <section class="header">
+            
+        <nav>
+         <a class="logo" href="https://www.jntuacek.ac.in"><img src="hello/logo.jpg"></a>
+           
+            <div class="menu-bar">
+                <ul>
+                <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times " onclick="hideMenu()"></i>
+                    <ul>
+                          <li><a href="#"><i style="font-size:25px; color:red"></i>Login</a>
+                   
+                    <div class="sub-menu-1">
+                        <ul>
+                     <li><a href="#" onclick=window.location.href="liblogin.html">librarian</a></li> 
+                          <li><a href="#" onclick=window.location.href="std.html">student</a></li> 
+                            
+                        </ul>
+                    
+                </div> 
+                    </li>
+                <div class="nav1">
+                <li><a href="#">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="#crse">COURSE</a></li>
+                <!-- <li><a href="">CONTACT</a></li> -->
+                        
+            </div>
+                </ul>
+            </div>
+                </ul>
+            </div>
+                  
+       <i class="fa fa-bars" style="color:firebrick" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box" >
+            <h1>JNTUA<br> e-Library Management</h1>
+            <p>All department books are available with all editions</p>
+           
+        </div>
+        
+        </section>
+        
+        
+        <section class="course" id="crse">
+            <h1>Courses</h1>
+            <p>B.Tech courses offering</p>
+            <div class="row">
+                <div class="course-col">
+                    <h2>Under Graduation</h2>
+                    <p>All B.Tech Programs are available</p>
+                </div>
+                <div class="course-col">
+                <h2>Post Graduation</h2>
+                <p>All pg programs are available</p>
+                    </div>
+            </div>
+        </section>
+        <section class="campus">
+        <h1>Our Global Campus</h1>
+            <div class="row">
+            <div class="campus-col">
+                <img src="hello/admin%20block.png">
+                <div class="layer">
+                <h4>ADMIN-BLOCK</h4>
+                    </div>
+                </div>
+                <div class="campus-col">
+                <img src="hello/academic.jpeg">
+                <div class="layer">
+                <h4>ACADEMIC-BLOCK</h4>
+                    </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+      
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+             function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+        
+        </body>
+</html>
+
+
+
+
+
+
+
+
